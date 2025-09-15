@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PORTFOLIO</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #F9FAFF;
+    }
+    h2 {
+      position: relative;
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+    }
+    h2::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -8px;
+      width: 100px;
+      height: 4px;
+      background: #FDC435;
+      border-radius: 2px;
+      transform: translateX(-50%);
+    }
+    .bi-instagram:hover { color: orange; }
+    .bi-linkedin:hover { color: darkblue; }
+    .bi-envelope-fill:hover { color: darkgray; }
+    img.hero-img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="/index.html">Moubine Saad</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto d-flex flex-lg-row flex-column">
+            <li class="nav-item"><a class="nav-link px-3" href="/about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link px-3" href="#prj">Projects</a></li>
+            <li class="nav-item"><a class="nav-link px-3" href="#cnt">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h1 class="display-4 fw-bold mb-3" style="font-family: 'Playfair Display', serif;">About me</h1>
+        <p class="lead mb-4">Nisl arcu, scelerisque neque ut. Tincidunt amet, tempor duis tortor neque auctor dis ipsum. Pretium cras amet odio amet eleifend id sed cras sed. Aliquet risus posuere aliquet imperdiet sit.</p>
+        <div class="d-flex gap-2 flex-wrap">
+          <a class="btn btn-warning text-dark px-4" href="/indexx.html">Projects</a>
+          <a class="btn btn-outline-dark px-4" href="#">LinkedIn</a>
+        </div>
+      </div>
+      <div class="col-lg-6 text-center">
+        <img src="/images/bg-2.png" alt="PHOTO" class="hero-img">
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="container-fluid text-dark text-center py-4 position-relative">
+    <div class="d-flex flex-wrap justify-content-center mb-3 gap-3">
+      <a href="https://www.instagram.com/saadmoubine" target="_blank" class="text-dark"><i class="bi bi-instagram fs-2"></i></a>
+      <a href="https://www.linkedin.com/in/saad-moubine-2883a426a/" target="_blank" class="text-dark"><i class="bi bi-linkedin fs-2"></i></a>
+      <a href="mailto:saadmoubiner@email.com" class="text-dark"><i class="bi bi-envelope-fill fs-2"></i></a>
+    </div>
+    <p class="mb-0">© Saad Moubine 2025</p>
+    <img src="/images/Vector.png" alt="Vector decoration" class="img-fluid mt-3" style="width:100%; object-fit:cover;">
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
